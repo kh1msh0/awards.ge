@@ -8,11 +8,11 @@ class EditRestaurantsForm extends React.Component {
           ...this.props.restaurant,
            [event.currentTarget.name]: event.currentTarget.value}
            this.props.updateRestaurant(this.props.index, updatedRestaurant)
-        //   console.log(updatedRestaurant)
-    };
+          // console.log(updatedRestaurant)
+    }; 
+
+    
   render() {
-
-
     return (
       <div style={{ height: "200px", width:"1000px" }}>
         <input type="text"  
@@ -41,11 +41,11 @@ class EditRestaurantsForm extends React.Component {
           onChange={this.handleChange} 
           value={this.props.restaurant.desc} 
         />
-        <input type="text"   
+        {/* <input type="text"   
         name="image"  
         onChange={this.handleChange}  
         value={this.props.restaurant.image}  
-        />
+        /> */}
 
         <button onClick={()=>this.props.removeRestaurant(this.props.index)}>remove me </button>
       </div>

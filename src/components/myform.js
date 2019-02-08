@@ -38,8 +38,6 @@ class Myform extends React.Component {
         style={{ marginTop: "50px", marginBottom: "50px", marginLeft: "30%" }}
         onSubmit={this.createRestaurant}
       >
-        
-
         <input
           type="text"
           name="saxeli"

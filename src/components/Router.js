@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from "./App";
 // import NotFound from "./NotFound";
 import Admin from './Admin';
+import NotFound from "./NotFound";
 // import Cards from './Cards';
 
 const Router = () => (
@@ -11,6 +12,8 @@ const Router = () => (
     <Switch>
         <Route exact path="/" component = {App} />
         <Route path="/admin/" component= {Admin} />
+        <Route  component= {NotFound} />
+
         {/* <Route component= {NotFound} /> */}
         
     </Switch>

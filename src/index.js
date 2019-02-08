@@ -3,11 +3,13 @@ import {render} from 'react-dom';
 // import './index.css';
 // import App from './components/App';
 // import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Router from "./components/Router";
 import './css/bootstrap-reboot.css';
 import './css/bootstrap-grid.css';
 import './css/bootstrap.css';
+import './App.css';
+
 
 // import StorePicker from './components/StorePicker';
 
